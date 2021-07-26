@@ -1,0 +1,13 @@
+This is the project idea file and will contain the stuff that needs to be implemented in order to make a paint project where people draw and put lines and stuff, since we already get access to the 2d Context of the canvas element,
+first I will implement on top of it and then Let's see what can we do..
+
+Ideas to implement
+    Line drawing with mouse movement
+    tool picker , color picker
+
+Since I cannot find the images for tools I will just make them a button with event listner attached
+
+There is one approac i am thinking on how to implement the undo operation,
+we draw this action to the last action
+
+and if it is already drawn no need to , just stop .. so we draw everything recursively.. 
